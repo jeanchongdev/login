@@ -1,0 +1,14 @@
+/* Estilos responsivos para dispositivos más pequeños (en responsive.css) */
+@media screen and (max-width: 768px) {
+    body {
+      background: linear-gradient(#1f1c1c, #000000); /* Cambio de fondo para tamaños de pantalla más pequeños */
+    }
+  
+    .login-box {
+      padding: 20px; /* Ajuste del espaciado para tamaños de pantalla más pequeños */
+      max-width: 90%; /* Reducción del ancho del formulario */
+    }
+  
+    /* Otros estilos responsivos para tamaños de pantalla más pequeños */
+  }
+  

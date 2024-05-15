@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#4285f4">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="responsive.css">
+    <link rel="icon" href="icono/login.ico">
+    <title>Login</title>
+</head>
+<body>
+  <div class="login-box">
+  <h2>Iniciar sesión</h2>
+  <form>
+    <div class="user-box">
+      <input type="text" name="username" id="username" required>
+      <label>Nombre de usuario</label>
+    </div>
+    <div class="user-box">
+      <input type="password" name="password" id="password" required>
+      <label>Contraseña</label>
+    </div>
+    <div id="error-message" class="error-message"></div>
+    <a href="https://github.com/jeanchong15" id="login-link" onclick="checkCredentials(event)">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      Iniciar
+    </a>
+  </form>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
